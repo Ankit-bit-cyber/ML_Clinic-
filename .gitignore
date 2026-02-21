@@ -1,0 +1,20 @@
+# Virtual Environments
+backend/venv/
+frontend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# ML Artifacts
+backend/app/artifacts/*.pkl
+
+# Data
+data/raw/*
+data/processed/*
+
+# macOS
+.DS_Store
