@@ -35,3 +35,6 @@ tornado==6.5.4
 typing_extensions==4.15.0
 tzdata==2025.3
 urllib3==2.6.3
+joblib==1.5.3
+scikit-learn==1.8.0
+xgboost==3.2.0
