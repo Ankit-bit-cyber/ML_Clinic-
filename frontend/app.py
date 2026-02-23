@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load model
-MODEL_PATH = "artifacts/model.pkl"
+from pathlib import Path
+import joblib
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "artifacts" / "model.pkl"
+
 model = joblib.load(MODEL_PATH)
 
 st.set_page_config(page_title="ML Clinic", layout="wide")
