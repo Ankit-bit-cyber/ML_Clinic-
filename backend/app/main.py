@@ -1,7 +1,6 @@
 from fastapi import FastAPI
+from app.api.routes import router
 
-app = FastAPI()
+app = FastAPI(title="ML Clinic API")
 
-@app.get("/")
-def read_root():
-    return {"message": "Backend is running"}
+app.include_router(router)
