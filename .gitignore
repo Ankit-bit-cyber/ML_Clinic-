@@ -12,10 +12,6 @@ __pycache__/
 # ML Artifacts
 backend/app/artifacts/*.pkl
 
-# Data
-data/raw/*
-data/processed/*
-
 # macOS
 .DS_Store
 
